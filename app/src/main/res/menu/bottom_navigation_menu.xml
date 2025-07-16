@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        android:visible="true" />
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/calendar_lines_pen"
+        android:title="Calendar"
+        android:visible="true" />
+    <item
+        android:id="@+id/navigation_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete"
+        android:visible="false" />
+    <item
+        android:id="@+id/navigation_cancel"
+        android:icon="@drawable/ic_cancel"
+        android:title="Cancel"
+        android:visible="false" />
+</menu>

@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input Judul -->
+    <EditText
+        android:id="@+id/notepad_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Catatan"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:inputType="text" />
+
+    <!-- Input Isi Catatan -->
+    <EditText
+        android:id="@+id/notepad_input"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Isi Catatan"
+        android:gravity="start|top"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical" />
+</LinearLayout>

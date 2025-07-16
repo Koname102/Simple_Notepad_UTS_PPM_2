@@ -1,0 +1,33 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Hint Text -->
+    <TextView
+        android:id="@+id/hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="Masukkan Nama"
+        android:textColor="#9E9E9E"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <!-- EditText -->
+    <EditText
+        android:id="@+id/custom_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Material.Light.EditText"
+        android:layout_marginTop="18dp"
+        android:padding="12dp"
+        android:hint=""
+        android:background="@drawable/custom_edittext_background"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textCursorDrawable="@drawable/custom_cursor"/>
+</FrameLayout>
